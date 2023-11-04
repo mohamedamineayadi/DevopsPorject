@@ -52,6 +52,13 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
+    <distributionManagement>
+            <repository>
+            <id>deploymentRepo</id>
+            <name>Nexus Repository</name>
+            <url>http://192.168.20.16:8081/repository/maven-releases/</url>
+            </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
