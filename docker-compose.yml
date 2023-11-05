@@ -14,7 +14,7 @@ services:
     networks:
       - mynetwork
   backend:
-    image: medamineayadi99/DevOps_Project:1.0
+    image: medamineayadi99/devops_project:1.0
     depends_on:
       - mysqldb
     build: ./
